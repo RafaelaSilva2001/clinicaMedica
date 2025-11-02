@@ -1,0 +1,71 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      <ion-text color="light">
+        <h2>Bem Estar <small>Saúde</small></h2>
+      </ion-text>
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-icon name="notifications-outline" color="light"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark">
+
+  <div class="welcome-card ion-padding">
+    <h2>Bom dia, <b>Paciente</b></h2>
+    <p>Como podemos ajudar você hoje?</p>
+  </div>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card button color="primary" class="action-card">
+          <ion-icon name="calendar-outline"></ion-icon>
+          <p>Agendar Consulta</p>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card button color="success" class="action-card">
+          <ion-icon name="pulse-outline"></ion-icon>
+          <p>Especialidades</p>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card button color="tertiary" class="action-card">
+          <ion-icon name="people-outline"></ion-icon>
+          <p>Médicos</p>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card button color="warning" class="action-card">
+          <ion-icon name="bar-chart-outline"></ion-icon>
+          <p>Relatórios</p>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <div class="ion-padding-horizontal">
+    <div class="section-header">
+      <h3>Próximos Agendamentos</h3>
+      <ion-text color="primary">Ver todos</ion-text>
+    </div>
+
+    <ion-card color="medium" class="appointment-card">
+      <ion-badge color="primary">Consulta</ion-badge>
+      <h4>Cardiologia</h4>
+      <p>Dr. Godofredo</p>
+      <div class="appointment-info">
+        <ion-icon name="calendar-outline"></ion-icon>
+        <span>31/10/2025</span>
+        <ion-icon name="time-outline"></ion-icon>
+        <span>14:00</span>
+      </div>
+    </ion-card>
+  </div>
+</ion-content>
+
